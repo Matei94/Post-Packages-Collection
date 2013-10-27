@@ -1,11 +1,10 @@
 PostPackagesCollection
 ======================	
 
-		**********************
-		**** Tema 1 la SD ****
-		**********************
-	
-	**Centru de Colectare a pachetelor**
+		****************************************
+		************* Tema 1 la SD *************
+		*** Centru de Colectare a pachetelor ***
+		****************************************
 	
 Detalii de implementare:
 

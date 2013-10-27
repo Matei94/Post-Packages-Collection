@@ -1,0 +1,680 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0047)http://ocw.cs.pub.ro/courses/sd-ca/teme/teme-01 -->
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en" dir="ltr"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+  <title>
+    Tema 1 - Centru de colectare a pachetelor    [CS Open CourseWare]
+  </title>
+
+  <meta name="generator" content="DokuWiki">
+<meta name="robots" content="index,follow">
+<meta name="date" content="2013-03-29T20:02:42+0200">
+<meta name="keywords" content="sd-ca,teme,teme-01">
+<link rel="search" type="application/opensearchdescription+xml" href="http://ocw.cs.pub.ro/courses/lib/exe/opensearch.php" title="CS Open CourseWare">
+<link rel="start" href="http://ocw.cs.pub.ro/courses/">
+<link rel="alternate" type="application/rss+xml" title="Recent Changes" href="http://ocw.cs.pub.ro/courses/feed.php">
+<link rel="alternate" type="application/rss+xml" title="Current Namespace" href="http://ocw.cs.pub.ro/courses/feed.php?mode=list&ns=sd-ca:teme">
+<link rel="alternate" type="text/html" title="Plain HTML" href="http://ocw.cs.pub.ro/courses/_export/xhtml/sd-ca/teme/teme-01">
+<link rel="canonical" href="./Tema 1 - Centru de colectare a pachetelor [CS Open CourseWare]_files/Tema 1 - Centru de colectare a pachetelor [CS Open CourseWare].html">
+<link rel="stylesheet" type="text/css" href="./Tema 1 - Centru de colectare a pachetelor [CS Open CourseWare]_files/css.php">
+<script type="text/javascript">/*<![CDATA[*/var NS='sd-ca:teme';var JSINFO = {"id":"sd-ca:teme:teme-01","namespace":"sd-ca:teme","isadmin":0,"isauth":0};
+/*!]]>*/</script>
+<script type="text/javascript" charset="utf-8" src="./Tema 1 - Centru de colectare a pachetelor [CS Open CourseWare]_files/js.php"></script>
+<script type="text/javascript">/*<![CDATA[*/
+var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
+document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
+		  
+/*!]]>*/</script><script src="./Tema 1 - Centru de colectare a pachetelor [CS Open CourseWare]_files/ga.js" type="text/javascript"></script>
+<script type="text/javascript">/*<![CDATA[*/
+var pageTracker = _gat._getTracker("UA-38383934-1");
+pageTracker._initData();
+pageTracker._trackPageview();
+		  
+/*!]]>*/</script>
+<script type="text/x-mathjax-config;executed=true">/*<![CDATA[*/MathJax.Hub.Config({
+    tex2jax: {
+        inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+        displayMath: [ ["$$","$$"], ["\\[","\\]"] ],
+        processEscapes: true
+    }
+});
+/*!]]>*/</script>
+<script type="text/javascript" charset="utf-8" src="./Tema 1 - Centru de colectare a pachetelor [CS Open CourseWare]_files/MathJax.js"></script>
+
+  <link rel="shortcut icon" href="http://ocw.cs.pub.ro/courses/lib/tpl/arctic/images/favicon.ico">
+
+  
+<style type="text/css">.MathJax_Hover_Frame {border-radius: .25em; -webkit-border-radius: .25em; -moz-border-radius: .25em; -khtml-border-radius: .25em; box-shadow: 0px 0px 15px #83A; -webkit-box-shadow: 0px 0px 15px #83A; -moz-box-shadow: 0px 0px 15px #83A; -khtml-box-shadow: 0px 0px 15px #83A; border: 1px solid #A6D ! important; display: inline-block; position: absolute}
+.MathJax_Hover_Arrow {position: absolute; width: 15px; height: 11px; cursor: pointer}
+</style><style type="text/css">#MathJax_About {position: fixed; left: 50%; width: auto; text-align: center; border: 3px outset; padding: 1em 2em; background-color: #DDDDDD; color: black; cursor: default; font-family: message-box; font-size: 120%; font-style: normal; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 15px; -webkit-border-radius: 15px; -moz-border-radius: 15px; -khtml-border-radius: 15px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_Menu {position: absolute; background-color: white; color: black; width: auto; padding: 5px 0px; border: 1px solid #CCCCCC; margin: 0; cursor: default; font: menu; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; z-index: 201; border-radius: 5px; -webkit-border-radius: 5px; -moz-border-radius: 5px; -khtml-border-radius: 5px; box-shadow: 0px 10px 20px #808080; -webkit-box-shadow: 0px 10px 20px #808080; -moz-box-shadow: 0px 10px 20px #808080; -khtml-box-shadow: 0px 10px 20px #808080; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+.MathJax_MenuItem {padding: 1px 2em; background: transparent}
+.MathJax_MenuArrow {position: absolute; right: .5em; color: #666666}
+.MathJax_MenuActive .MathJax_MenuArrow {color: white}
+.MathJax_MenuCheck {position: absolute; left: .7em}
+.MathJax_MenuRadioCheck {position: absolute; left: .7em}
+.MathJax_MenuLabel {padding: 1px 2em 3px 1.33em; font-style: italic}
+.MathJax_MenuRule {border-top: 1px solid #DDDDDD; margin: 4px 3px}
+.MathJax_MenuDisabled {color: GrayText}
+.MathJax_MenuActive {background-color: #606872; color: white}
+.MathJax_Menu_Close {position: absolute; width: 31px; height: 31px; top: -15px; left: -15px}
+</style><style type="text/css">#MathJax_Zoom {position: absolute; background-color: #F0F0F0; overflow: auto; display: block; z-index: 301; padding: .5em; border: 1px solid black; margin: 0; font-weight: normal; font-style: normal; text-align: left; text-indent: 0; text-transform: none; line-height: normal; letter-spacing: normal; word-spacing: normal; word-wrap: normal; white-space: nowrap; float: none; box-shadow: 5px 5px 15px #AAAAAA; -webkit-box-shadow: 5px 5px 15px #AAAAAA; -moz-box-shadow: 5px 5px 15px #AAAAAA; -khtml-box-shadow: 5px 5px 15px #AAAAAA; filter: progid:DXImageTransform.Microsoft.dropshadow(OffX=2, OffY=2, Color='gray', Positive='true')}
+#MathJax_ZoomOverlay {position: absolute; left: 0; top: 0; z-index: 300; display: inline-block; width: 100%; height: 100%; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+#MathJax_ZoomFrame {position: relative; display: inline-block; height: 0; width: 0}
+#MathJax_ZoomEventTrap {position: absolute; left: 0; top: 0; z-index: 302; display: inline-block; border: 0; padding: 0; margin: 0; background-color: white; opacity: 0; filter: alpha(opacity=0)}
+</style><style type="text/css">.MathJax_Preview {color: #888}
+#MathJax_Message {position: fixed; left: 1em; bottom: 1.5em; background-color: #E6E6E6; border: 1px solid #959595; margin: 0px; padding: 2px 8px; z-index: 102; color: black; font-size: 80%; width: auto; white-space: nowrap}
+#MathJax_MSIE_Frame {position: absolute; top: 0; left: 0; width: 0px; z-index: 101; border: 0px; margin: 0px; padding: 0px}
+.MathJax_Error {color: #CC0000; font-style: italic}
+</style></head>
+<body><div id="MathJax_Message" style="display: none;"></div>
+<div id="wrapper" class="show">
+  <div class="dokuwiki">
+
+    
+    <div class="stylehead">
+      <div class="header">
+        <div class="pagename">
+          <a href="http://ocw.cs.pub.ro/courses/sd-ca/"><img height="70" src="./Tema 1 - Centru de colectare a pachetelor [CS Open CourseWare]_files/sigla_cs.png"> </a>        </div>
+        <div class="logo">
+          <a style="color: #AAA !important;" href="http://ocw.cs.pub.ro/courses/">Open CourseWare</a>        </div>
+      </div>
+    
+       
+      <div class="breadcrumbs">
+              </div>
+      
+            </div>
+
+                  <div class="bar" id="bar__top">
+        <div class="bar-left">
+                  </div>
+        <div class="bar-right">
+          <a href="http://ocw.cs.pub.ro/courses/sd-ca/teme/teme-01?do=login&sectok=9c6a3c70746e5697e496d5d6f13170f0" class="action login" rel="nofollow" title="Login">Login</a>        </div>
+    </div>
+        
+    
+    
+    
+              <div class="left_page">
+          
+<h1 class="sectionedit1" id="tema_1_-_centru_de_colectare_a_pachetelor">Tema 1 - Centru de colectare a pachetelor</h1>
+<div class="level1">
+
+<p>
+Responsabili
+</p>
+<ul>
+<li class="level1"><div class="li"> <a href="mailto:mailto:bogatu.adrian@gmail.com" class="mail" title="mailto:bogatu.adrian@gmail.com"> Matei Păvălucă</a> (2013)</div>
+</li>
+<li class="level1"><div class="li"> <a href="mailto:mailto:bogatu.adrian@gmail.com" class="mail" title="mailto:bogatu.adrian@gmail.com"> Adrian Bogatu</a> (2013)</div>
+</li>
+</ul>
+
+<p>
+<strong>29 martie:</strong> <a href="http://ocw.cs.pub.ro/courses/_media/sd-ca/teme/teste_vmchecker.zip" class="media mediafile mf_zip" title="sd-ca:teme:teste_vmchecker.zip">teste_vmChecker</a>  <br>
+
+<strong>26 martie:</strong> <a href="http://ocw.cs.pub.ro/courses/_media/sd-ca/teme/test_01vmchecker.zip" class="media mediafile mf_zip" title="sd-ca:teme:test_01vmchecker.zip">test01_vmChecker</a> <br>
+
+<strong>22 martie:</strong> Au fost adaugate cateva <a href="http://ocw.cs.pub.ro/courses/_media/sd-ca/teme/tests_tema1_sd.zip" class="media mediafile mf_zip" title="sd-ca:teme:tests_tema1_sd.zip">teste</a> <br>
+
+<strong>Deadline:</strong> 31 martie, ora 23:50
+</p>
+
+</div>
+
+<h2 class="sectionedit2" id="obiective">Obiective</h2>
+<div class="level2">
+
+<p>
+În urma realizării acestei teme, studentul:
+</p>
+<ul>
+<li class="level1"><div class="li"> va învǎţa să definească și să utilizeze tipuri de date proprii</div>
+</li>
+<li class="level1"><div class="li"> va fi capabil să implementeze o coadă generică</div>
+</li>
+<li class="level1"><div class="li"> se va acomoda cu sintaxa de C++</div>
+</li>
+</ul>
+
+</div>
+
+<h2 class="sectionedit3" id="introducere">Introducere</h2>
+<div class="level2">
+
+<p>
+Pentru a mări siguranța la un centru de colectare a pachetelelor,
+serviciul de securitate din cadrul poștei are nevoie de o metodă
+pentru a putea afla exact ce pachete sunt primite și în ce ordine.
+</p>
+
+<p>
+Dupa ce s-au alocat bani de la buget si s-au consultat
+numeroși specialiști în probleme de securitate, s-a ajuns la concluzia că 
+cea mai buna soluție este supravegherea permanentă a fluxului de persoane.	
+</p>
+
+<p>
+Intrucat un sistem informatic bazat pe supraveghere video 
+este mult prea costisitor din punct de vedere al resurselor umane și materiale,
+s-a propus realizarea unui simulator de procesare a pachetelor care să functioneze cu date
+strânse periodic de la fiecare ghișeu.
+</p>
+
+<p>
+Cum cea mai ieftină si bună mână de lucru se găsește printre studenții
+de la Politehnică, departamentul de securitate a decis să vă angajeze pe voi 
+pentru realizarea simulatorului.
+</p>
+
+</div>
+
+<h2 class="sectionedit4" id="cerinta">Cerință</h2>
+<div class="level2">
+
+<p>
+Trebuie să implmentați un simulator simplu al activității
+din centrul de colectare a pachetelor.
+</p>
+
+</div>
+
+<h2 class="sectionedit5" id="specificatii">Specificații</h2>
+<div class="level2">
+
+<p>
+In sala de colectare se găsesc Persoane și Ghișee de colectare:
+</p>
+<ul>
+<li class="level1"><div class="li"> Persoane:</div>
+<ul>
+<li class="level2"><div class="li"> Fiecare individ are un <strong>PERSONAL_ID</strong> unic</div>
+</li>
+<li class="level2"><div class="li"> Fiecare persoană vrea să depună exact un pachet, pachetul cântărind o anumită greutate (<strong>PACKAGE_WEIGHT</strong>)</div>
+</li>
+<li class="level2"><div class="li"> Pentru a-și depune pachetul, oamenii se așează la coada unui ghișeu</div>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> Ghișee:</div>
+<ul>
+<li class="level2"><div class="li"> Sala are <strong>N</strong> ghișee fiecare cu un <strong>WINDOW_ID</strong> unic</div>
+</li>
+<li class="level2"><div class="li"> Fiecare ghișeu are în fața sa o coadă formată din oameni ce vor să își depună pachetul</div>
+</li>
+<li class="level2"><div class="li"> Fiecare ghișeu acceptă pachete cu greutatea între <strong>WEIGHT_MIN</strong> și <strong>WEIGHT_MAX</strong></div>
+</li>
+<li class="level2"><div class="li"> Dacă greutatea pachetului primei persoane din coadă nu se află între WEIGHT_MIN si WEIGHT_MAX se refuză preluarea pachetului și persoana se mută la altă coadă</div>
+</li>
+<li class="level2"><div class="li"> Se garantează că nu există oameni cu pachete ce nu pot fi primite la nici un ghișeu (prea grele sau prea ușoare)</div>
+</li>
+<li class="level2"><div class="li"> Fiecare ghișeu are o stivă de pachete colectate</div>
+</li>
+<li class="level2"><div class="li"> In momentul în care se procesează un pachet și el este acceptat, pachetul se pune în stiva ghișeului respectiv</div>
+</li>
+<li class="level2"><div class="li"> Stiva poate ține maxim <strong>Q</strong> elemente si maxim <strong>K</strong> grame</div>
+</li>
+<li class="level2"><div class="li"> Dacă se depășesc Q elemente sau K grame, stiva este golită și conținutul ei este trimis spre livrare</div>
+<ul>
+<li class="level3"><div class="li"> <strong>Atentie!</strong> Daca un pachet nu poate fi adǎugat deoarece stiva nu îl suportă, stiva va fi golită, iar apoi pachetul va fi introdus în stiva goalǎ.</div>
+</li>
+</ul>
+</li>
+<li class="level2"><div class="li"> Un ghișeu poate procesa persoanele doar în ordinea în care se află la coadă.</div>
+</li>
+</ul>
+</li>
+</ul>
+
+<p>
+Procesarea unei persoane implică verificarea greutății pachetului (dacă este
+acceptat sau respins) și eliminarea acesteia din coadă. Dacă pachetul este
+acceptat persoana este fericită și pleacă acasă. Dacă nu, se duce la coada cu
+urmatorul ID.
+</p>
+
+</div>
+
+<h2 class="sectionedit6" id="precizari_de_implementare">Precizări de implementare</h2>
+<div class="level2">
+<ol>
+<li class="level1"><div class="li"> <strong>PERSONAL_ID</strong> este un număr întreg</div>
+</li>
+<li class="level1"><div class="li"> <strong>WINDOW_ID</strong> este un număr întreg între <strong>0</strong> și <strong>N-1</strong></div>
+</li>
+<li class="level1"><div class="li"> <strong>WEIGHT_MIN</strong>, <strong>WEIGHT_MAX</strong>, <strong>K</strong> și <strong>Q</strong> sunt numere întregi</div>
+</li>
+<li class="level1"><div class="li"> Dacă persoanei care stă la ghișeul WINDOW_ID i se refuză pachetul, aceasta va fi trimisă la primul ghișeu deschis după ghișeul cu id-ul WINDOW_ID</div>
+</li>
+<li class="level1"><div class="li"> Dacă nu există nici un ghișeu deschis între <strong>WINDOW_ID</strong> și <strong>N</strong>, persoana se va muta la prima coadă deschisă</div>
+</li>
+<li class="level1"><div class="li"> Puteti pleca in rezolvarea temei de la implementarile generice de cozi si stive din laborator</div>
+</li>
+</ol>
+
+</div>
+
+<h3 class="sectionedit7" id="input">Input</h3>
+<div class="level3">
+
+<p>
+Simulatorul vostru va primi comenzi prin intermediul unui fișier dat ca parametru
+din linia de comandă.
+</p>
+
+<p>
+Formatul fișierului de intrare:
+</p>
+<pre class="code">N
+&lt;comanda&gt; &lt;args&gt;
+&lt;comanda&gt; &lt;args&gt;
+.
+.
+.
+&lt;comanda&gt; &lt;args&gt;</pre>
+
+<p>
+Comenzi posibile:
+</p>
+<ul>
+<li class="level1"><div class="li"> <strong>OPEN_WINDOW</strong> &lt;WINDOW_ID&gt; &lt;WEIGHT_MIN&gt; &lt;WEIGHT_MAX&gt; &lt;Q&gt; &lt;K&gt;</div>
+<ul>
+<li class="level2"><div class="li"> Adaugă un nou ghișeu </div>
+</li>
+</ul>
+<ol>
+<li class="level2"><div class="li"> WINDOW_ID - id-ul ghișeului care se deschide</div>
+</li>
+<li class="level2"><div class="li"> WEIGHT_MIN - Greutatea minimă acceptată</div>
+</li>
+<li class="level2"><div class="li"> WEIGHT_MAX - Greutatea maximă acceptată</div>
+</li>
+<li class="level2"><div class="li"> Q - Numǎrul maxim de pachete care pot intra în stivǎ</div>
+</li>
+<li class="level2"><div class="li"> K - Greutatea maximǎ pe care o suportǎ stiva</div>
+</li>
+</ol>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> <strong>ADD_PERSON</strong> &lt;PERSONAL_ID&gt; &lt;PACKAGE_WEIGHT&gt; &lt;WINDOW_ID&gt;</div>
+<ul>
+<li class="level2"><div class="li"> Adaugă persoana la coada specificată			</div>
+</li>
+</ul>
+<ol>
+<li class="level2"><div class="li"> PERSONAL_ID - id-ul persoanei care se așează la coadă</div>
+</li>
+<li class="level2"><div class="li"> PACKAGE_WEIGHT - greutatea pachetului</div>
+</li>
+<li class="level2"><div class="li"> WINDOW_ID - ghișeul la care se așează</div>
+</li>
+</ol>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> <strong>PROCESS</strong> &lt;WINDOW_ID&gt; &lt;N_PEOPLE&gt;</div>
+<ul>
+<li class="level2"><div class="li"> Ghișeul WINDOW_ID procesează un număr de N_PEOPLE persoane</div>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> <strong>PROCESS_ALL</strong> &lt;WINDOW_ID&gt;</div>
+<ul>
+<li class="level2"><div class="li"> Ghișeul WINDOW_ID procesează toate persoanele aflate la propria coadă</div>
+</li>
+</ul>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> <strong>PRINT_STACKS</strong></div>
+<ul>
+<li class="level2"><div class="li"> Afișează la ieșirea standard starea tuturor stivelor în ordinea id-urilor ghișeelor:</div>
+</li>
+<li class="level2"><div class="li"> Pe fiecare line se vor afișa pachetele în ordinea corespunzǎtoare stivelor (se afișeazǎ întâi ultimul pachet introdus)</div>
+</li>
+</ul>
+</li>
+</ul>
+<pre class="code">STACKS:
+&lt;WINDOW_ID&gt;: &lt;PACKAGE_WEIGHT&gt;, ...
+&lt;WINDOW_ID&gt;: &lt;PACKAGE_WEIGHT&gt;, ...
+.
+.
+.</pre>
+<ul>
+<li class="level1"><div class="li"> <strong>FLUSH_STACKS</strong></div>
+<ul>
+<li class="level8"><div class="li"> Toate ghișeele eliberează stiva proprie de pachete și le afișează în ordine(LIFO) la ieșirea standard:</div>
+</li>
+</ul>
+</li>
+</ul>
+<pre class="code">FLUSHING:
+&lt;WINDOW_ID&gt;: &lt;PACKAGE_WEIGHT&gt;, ...
+&lt;WINDOW_ID&gt;: &lt;PACKAGE_WEIGHT&gt;, ...</pre>
+<ul>
+<li class="level1"><div class="li"> <strong>PRINT_QUEUES</strong>:</div>
+<ul>
+<li class="level2"><div class="li"> Afiseaza la iesirea standard starea cozilor din fata tuturor ghișeelor:</div>
+</li>
+</ul>
+</li>
+</ul>
+<pre class="code">QUEUES:
+&lt;WINDOW_ID&gt;: (&lt;PERSONAL_ID&gt;, &lt;PACKAGE_WEIGHT&gt;), ...
+&lt;WINDOW_ID&gt;: (&lt;PERSONAL_ID&gt;, &lt;PACKAGE_WEIGHT&gt;), ...</pre>
+
+</div>
+
+<h3 class="sectionedit8" id="output">Output</h3>
+<div class="level3">
+
+<p>
+Afișarea se va face la <strong>stdout</strong> conform precizărilor din descrierea comenzilor <strong>PRINT_QUEUES</strong>, <strong>FLUSH_STACKS</strong> și <strong>PRINT_STACKS</strong>.
+</p>
+
+</div>
+
+<h3 class="sectionedit9" id="exemplu">Exemplu</h3>
+<div class="level3">
+
+<p>
+Cateva teste: <a href="http://ocw.cs.pub.ro/courses/_media/sd-ca/teme/tests_tema1_sd.zip" class="media mediafile mf_zip" title="sd-ca:teme:tests_tema1_sd.zip"> teste</a>
+</p>
+<dl class="code">
+<dt><a href="http://ocw.cs.pub.ro/courses/_export/code/sd-ca/teme/teme-01?codeblock=4" title="Download Snippet" class="mediafile mf_">Input</a></dt>
+<dd><pre class="code c++"><span class="nu0">10</span>
+OPEN_WINDOW <span class="nu0">0</span> <span class="nu0">200</span> <span class="nu0">500</span> <span class="nu0">2</span> <span class="nu0">500</span>
+ADD_PERSON <span class="nu0">100</span> <span class="nu0">250</span> <span class="nu0">0</span>
+ADD_PERSON <span class="nu0">101</span> <span class="nu0">650</span> <span class="nu0">0</span>
+ADD_PERSON <span class="nu0">102</span> <span class="nu0">300</span> <span class="nu0">0</span>
+ADD_PERSON <span class="nu0">103</span> <span class="nu0">550</span> <span class="nu0">0</span>
+&nbsp;
+PRINT_QUEUES
+&nbsp;
+OPEN_WINDOW <span class="nu0">4</span> <span class="nu0">450</span> <span class="nu0">1000</span> <span class="nu0">3</span> <span class="nu0">5000</span>
+ADD_PERSON <span class="nu0">110</span> <span class="nu0">800</span> <span class="nu0">4</span>
+&nbsp;
+PROCESS <span class="nu0">0</span> <span class="nu0">2</span>
+PRINT_QUEUES
+&nbsp;
+PROCESS_ALL <span class="nu0">0</span>
+PRINT_STACKS
+&nbsp;
+PROCESS_ALL <span class="nu0">4</span>
+PRINT_STACKS
+&nbsp;
+FLUSH_STACKS
+PRINT_STACKS</pre>
+</dd></dl>
+<dl class="code">
+<dt><a href="http://ocw.cs.pub.ro/courses/_export/code/sd-ca/teme/teme-01?codeblock=5" title="Download Snippet" class="mediafile mf_">Output</a></dt>
+<dd><pre class="code c++">QUEUES<span class="sy0">:</span>
+<span class="nu0">0</span><span class="sy0">:</span> <span class="br0">(</span><span class="nu0">100</span><span class="sy0">,</span> <span class="nu0">250</span><span class="br0">)</span><span class="sy0">,</span> <span class="br0">(</span><span class="nu0">101</span><span class="sy0">,</span> <span class="nu0">650</span><span class="br0">)</span><span class="sy0">,</span> <span class="br0">(</span><span class="nu0">102</span><span class="sy0">,</span> <span class="nu0">300</span><span class="br0">)</span><span class="sy0">,</span> <span class="br0">(</span><span class="nu0">103</span><span class="sy0">,</span> <span class="nu0">550</span><span class="br0">)</span>
+QUEUES<span class="sy0">:</span>
+<span class="nu0">0</span><span class="sy0">:</span> <span class="br0">(</span><span class="nu0">102</span><span class="sy0">,</span> <span class="nu0">300</span><span class="br0">)</span><span class="sy0">,</span> <span class="br0">(</span><span class="nu0">103</span><span class="sy0">,</span> <span class="nu0">550</span><span class="br0">)</span>
+<span class="nu0">4</span><span class="sy0">:</span> <span class="br0">(</span><span class="nu0">110</span><span class="sy0">,</span> <span class="nu0">800</span><span class="br0">)</span><span class="sy0">,</span> <span class="br0">(</span><span class="nu0">101</span><span class="sy0">,</span> <span class="nu0">650</span><span class="br0">)</span>
+STACKS<span class="sy0">:</span>
+<span class="nu0">0</span><span class="sy0">:</span> <span class="nu0">300</span>
+<span class="nu0">4</span><span class="sy0">:</span>
+STACKS<span class="sy0">:</span>
+<span class="nu0">0</span><span class="sy0">:</span> <span class="nu0">300</span>
+<span class="nu0">4</span><span class="sy0">:</span> <span class="nu0">550</span><span class="sy0">,</span> <span class="nu0">650</span><span class="sy0">,</span> <span class="nu0">800</span>
+FLUSHING<span class="sy0">:</span>
+<span class="nu0">0</span><span class="sy0">:</span> <span class="nu0">300</span>
+<span class="nu0">4</span><span class="sy0">:</span> <span class="nu0">550</span><span class="sy0">,</span> <span class="nu0">650</span><span class="sy0">,</span> <span class="nu0">800</span>
+STACKS<span class="sy0">:</span>
+<span class="nu0">0</span><span class="sy0">:</span> 
+<span class="nu0">4</span><span class="sy0">:</span> </pre>
+</dd></dl>
+
+</div>
+
+<h2 class="sectionedit10" id="reguli_pentru_trimitere">Reguli pentru trimitere</h2>
+<div class="level2">
+
+<p>
+Temele vor trebui trimise pe <a href="https://elf.cs.pub.ro/vmchecker/ui/#SD" class="urlextern" title="https://elf.cs.pub.ro/vmchecker/ui/#SD" rel="nofollow">vmchecker</a>. 
+<strong>Atenție!</strong> Temele trebuie trimise în secțiunea <strong>Structuri de Date (CA)</strong>.
+</p>
+
+<p>
+Arhiva trebuie să conțină:
+</p>
+<ul>
+<li class="level1"><div class="li"> surse</div>
+</li>
+<li class="level1"><div class="li"> fișier Makefile cu două reguli:</div>
+<ul>
+<li class="level2"><div class="li"> regula <strong>build</strong>: în urma căreia se generează un executabil numit <strong>tema1</strong></div>
+</li>
+<li class="level2"><div class="li"> regula <strong>clean</strong> care şterge executabilul</div>
+</li>
+</ul>
+</li>
+<li class="level1"><div class="li"> fisier <strong>README</strong> care să conțină detalii despre implementarea temei</div>
+</li>
+</ul>
+
+</div>
+
+<h2 class="sectionedit11" id="punctaj">Punctaj</h2>
+<div class="level2">
+<ul>
+<li class="level1"><div class="li"> 80 puncte obținute pe testele de pe vmchecker</div>
+</li>
+<li class="level1"><div class="li"> 10 puncte: coding style</div>
+</li>
+<li class="level1"><div class="li"> 10 puncte: README + alte eventuale penalizări</div>
+</li>
+</ul>
+<ul>
+<li class="level1"><div class="li"> TOTAL: 100 puncte</div>
+</li>
+</ul>
+
+<p>
+Coding style-ul trebui sa fie consistent si usor de citit.
+Ca lectura va recomandam <a href="https://www.kernel.org/doc/Documentation/CodingStyle" class="urlextern" title="https://www.kernel.org/doc/Documentation/CodingStyle" rel="nofollow"> Linux Kenrel coding style </a>
+</p>
+
+<p>
+<strong>Atenție!</strong> Tema valorează 1 punct din nota finală. 
+Citiți cu atenție <a href="http://ocw.cs.pub.ro/courses/sd-ca/regulament#reguli_de_trimitere_a_temelor" class="urlextern" title="http://ocw.cs.pub.ro/courses/sd-ca/regulament#reguli_de_trimitere_a_temelor" rel="nofollow">Regulamentul General de Trimitere a Temelor</a>.
+</p>
+
+<p>
+O temă copiată va atrage eliminarea punctajului <strong>pe toate temele</strong>.
+</p>
+
+</div>
+
+<h2 class="sectionedit12" id="faq">FAQ</h2>
+<div class="level2">
+
+<p>
+<strong>Q:</strong> Se poate folosi STL?
+</p>
+
+<p>
+<strong>R:</strong> Nu. Obiectivul principal al cursului de structuri de date este acela ca voi să implementați structurile respective.
+</p>
+
+</div>
+
+<h2 class="sectionedit13" id="resurse">Resurse</h2>
+<div class="level2">
+
+<p>
+<a href="http://www.learncpp.com/" class="urlextern" title="http://www.learncpp.com/" rel="nofollow">C++ Tutorial</a>
+</p>
+
+</div>
+
+        </div>
+        <div class="right_sidebar">
+          <form action="http://ocw.cs.pub.ro/courses/start" accept-charset="utf-8" class="search" id="dw__search" method="get"><div class="no"><input type="hidden" name="do" value="search"><input type="text" id="qsearch__in" accesskey="f" name="id" class="edit" title="[F]"><input type="submit" value="Search" class="button" title="Search"><div id="qsearch__out" class="ajax_qsearch JSpopup"></div></div></form>          <div class="namespace_sidebar sidebar_box">
+<ul>
+<li class="level1"><div class="li"> <a href="http://ocw.cs.pub.ro/courses/sd-ca/regulament" class="wikilink1" title="sd-ca:regulament">Reguli generale și de notare</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://ocw.cs.pub.ro/courses/sd-ca/catalog" class="wikilink1" title="sd-ca:catalog">Catalog</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://ocw.cs.pub.ro/courses/sd-ca/concursuri" class="wikilink1" title="sd-ca:concursuri">Concursuri</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://ocw.cs.pub.ro/courses/sd-ca/calendar" class="wikilink1" title="sd-ca:calendar">Calendar</a></div>
+</li>
+</ul>
+
+<h1 class="sectionedit14" id="cursuri">Cursuri</h1>
+<div class="level1">
+
+<div><div id="nojs_indexmenu_1097926277526d059bbaa5e" data-jsajax="" class="indexmenu_nojs">
+
+<ul class="idx">
+<li class="level1"><div class="li"><a href="http://ocw.cs.pub.ro/courses/sd-ca/cursuri/curs01" class="wikilink1" title="sd-ca:cursuri:curs01">Curs 01 - C++ Programming</a></div></li>
+</ul>
+</div></div>
+
+</div>
+<!-- EDIT14 SECTION "Cursuri" [234-288] -->
+<h1 class="sectionedit15" id="laboratoare">Laboratoare</h1>
+<div class="level1">
+<ul>
+<li class="level1"><div class="li"> <a href="http://ocw.cs.pub.ro/courses/sd-ca/laboratoare/laborator-01" class="wikilink1" title="sd-ca:laboratoare:laborator-01">Laborator 1 - Introducere in C++</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://ocw.cs.pub.ro/courses/sd-ca/laboratoare/laborator-02" class="wikilink1" title="sd-ca:laboratoare:laborator-02">Laborator 2 - Noțiuni de C++ și Sortare</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://ocw.cs.pub.ro/courses/sd-ca/laboratoare/laborator-03" class="wikilink1" title="sd-ca:laboratoare:laborator-03">Laborator 3 - Stive</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://ocw.cs.pub.ro/courses/sd-ca/laboratoare/laborator-04" class="wikilink1" title="sd-ca:laboratoare:laborator-04">Laborator 4 - Cozi</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://ocw.cs.pub.ro/courses/sd-ca/laboratoare/laborator-05" class="wikilink1" title="sd-ca:laboratoare:laborator-05">Laborator 5 - Liste generice</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://ocw.cs.pub.ro/courses/sd-ca/laboratoare/laborator-06" class="wikilink1" title="sd-ca:laboratoare:laborator-06">Laborator 6 - HashTable</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://ocw.cs.pub.ro/courses/sd-ca/laboratoare/laborator-07" class="wikilink1" title="sd-ca:laboratoare:laborator-07">Laborator 7 - Grafuri</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://ocw.cs.pub.ro/courses/sd-ca/laboratoare/laborator-08" class="wikilink1" title="sd-ca:laboratoare:laborator-08">Laborator 8 - Arbori Binari</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://ocw.cs.pub.ro/courses/sd-ca/laboratoare/laborator-09" class="wikilink1" title="sd-ca:laboratoare:laborator-09">Laborator 9 - Arbori Binari de Căutare</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://ocw.cs.pub.ro/courses/sd-ca/laboratoare/laborator-10" class="wikilink1" title="sd-ca:laboratoare:laborator-10">Laborator 10 - Heap-uri</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://ocw.cs.pub.ro/courses/sd-ca/laboratoare/laborator-11" class="wikilink1" title="sd-ca:laboratoare:laborator-11">Laborator 11 - Treap-uri</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://ocw.cs.pub.ro/courses/sd-ca/laboratoare/laborator-12" class="wikilink1" title="sd-ca:laboratoare:laborator-12">Laborator 12 - Mulțimi Disjuncte</a></div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT15 SECTION "Laboratoare" [289-1209] -->
+<h1 class="sectionedit16" id="teme">Teme</h1>
+<div class="level1">
+<ul>
+<li class="level1"><div class="li"> <span class="curid"><a href="./Tema 1 - Centru de colectare a pachetelor [CS Open CourseWare]_files/Tema 1 - Centru de colectare a pachetelor [CS Open CourseWare].html" class="wikilink1" title="sd-ca:teme:teme-01">Tema 1</a></span></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://ocw.cs.pub.ro/courses/sd-ca/teme/teme-02" class="wikilink1" title="sd-ca:teme:teme-02">Tema 2</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://ocw.cs.pub.ro/courses/sd-ca/teme/teme-03" class="wikilink1" title="sd-ca:teme:teme-03">Tema 3</a></div>
+</li>
+<li class="level1"><div class="li"> <a href="http://ocw.cs.pub.ro/courses/sd-ca/teme/teme-04" class="wikilink1" title="sd-ca:teme:teme-04">Tema 4</a></div>
+</li>
+</ul>
+
+</div>
+<!-- EDIT16 SECTION "Teme" [1210-1365] -->
+<h1 class="sectionedit17" id="resurse">Resurse</h1>
+<div class="level1">
+
+<div><div id="nojs_indexmenu_1338306059526d059bbbb8a" data-jsajax="" class="indexmenu_nojs">
+
+<ul class="idx">
+<li class="level1"><div class="li"><a href="http://ocw.cs.pub.ro/courses/sd-ca/resurse/debugging" class="wikilink1" title="sd-ca:resurse:debugging">Debugging</a></div></li>
+<li class="level1"><div class="li"><a href="http://ocw.cs.pub.ro/courses/sd-ca/resurse/visualization" class="wikilink1" title="sd-ca:resurse:visualization">Data Structure Visualization</a></div></li>
+</ul>
+</div></div>
+
+</div>
+<!-- EDIT17 SECTION "Resurse" [1366-] -->
+</div>
+<div class="toc_sidebar sidebar_box">
+<!-- TOC START -->
+<div id="sb__right__dw__toc">
+<h3 class="toggle">Table of Contents</h3>
+<div>
+
+<ul class="toc">
+<li class="level1"><div class="li"><a href="http://ocw.cs.pub.ro/courses/sd-ca/teme/teme-01#tema_1_-_centru_de_colectare_a_pachetelor">Tema 1 - Centru de colectare a pachetelor</a></div>
+<ul class="toc">
+<li class="level2"><div class="li"><a href="http://ocw.cs.pub.ro/courses/sd-ca/teme/teme-01#obiective">Obiective</a></div></li>
+<li class="level2"><div class="li"><a href="http://ocw.cs.pub.ro/courses/sd-ca/teme/teme-01#introducere">Introducere</a></div></li>
+<li class="level2"><div class="li"><a href="http://ocw.cs.pub.ro/courses/sd-ca/teme/teme-01#cerinta">Cerință</a></div></li>
+<li class="level2"><div class="li"><a href="http://ocw.cs.pub.ro/courses/sd-ca/teme/teme-01#specificatii">Specificații</a></div></li>
+<li class="level2"><div class="li"><a href="http://ocw.cs.pub.ro/courses/sd-ca/teme/teme-01#precizari_de_implementare">Precizări de implementare</a></div>
+<ul class="toc">
+<li class="level3"><div class="li"><a href="http://ocw.cs.pub.ro/courses/sd-ca/teme/teme-01#input">Input</a></div></li>
+<li class="level3"><div class="li"><a href="http://ocw.cs.pub.ro/courses/sd-ca/teme/teme-01#output">Output</a></div></li>
+<li class="level3"><div class="li"><a href="http://ocw.cs.pub.ro/courses/sd-ca/teme/teme-01#exemplu">Exemplu</a></div></li>
+</ul>
+</li>
+<li class="level2"><div class="li"><a href="http://ocw.cs.pub.ro/courses/sd-ca/teme/teme-01#reguli_pentru_trimitere">Reguli pentru trimitere</a></div></li>
+<li class="level2"><div class="li"><a href="http://ocw.cs.pub.ro/courses/sd-ca/teme/teme-01#punctaj">Punctaj</a></div></li>
+<li class="level2"><div class="li"><a href="http://ocw.cs.pub.ro/courses/sd-ca/teme/teme-01#faq">FAQ</a></div></li>
+<li class="level2"><div class="li"><a href="http://ocw.cs.pub.ro/courses/sd-ca/teme/teme-01#resurse">Resurse</a></div></li>
+</ul></li>
+</ul>
+</div>
+</div>
+<!-- TOC END -->
+</div>
+        </div>
+      
+    
+      <div class="stylefoot">
+        <div class="meta">
+          <div class="user">
+                    </div>
+          <div class="doc">
+          sd-ca/teme/teme-01.txt · Last modified: 2013/03/29 20:02 by matei.pavaluca          </div>
+        </div>
+      </div>
+
+    <div class="clearer"></div>
+
+    
+                <div class="bar" id="bar__bottom">
+      <div class="bar-left">
+        <a href="http://ocw.cs.pub.ro/courses/sd-ca/teme/teme-01?do=revisions" class="action revs" accesskey="o" rel="nofollow" title="Old revisions [O]">Old revisions</a>      </div>
+      <div class="bar-right">
+        <a href="http://ocw.cs.pub.ro/courses/sd-ca/teme/teme-01?do=media" class="action media" rel="nofollow" title="Media Manager">Media Manager</a><a href="http://ocw.cs.pub.ro/courses/sd-ca/teme/teme-01#dokuwiki__top" class="action top" accesskey="t" rel="nofollow" title="Back to top [T]">Back to top</a>      </div>
+    </div>
+    <div class="clearer"></div>
+            
+    <div align="center" class="footerinc">
+  <div class="license"><a href="http://creativecommons.org/licenses/by-sa/3.0/" rel="license"><img src="./Tema 1 - Centru de colectare a pachetelor [CS Open CourseWare]_files/cc-by-sa.png" alt="CC Attribution-Share Alike 3.0 Unported"></a></div>
+  <a target="_blank" href="http://www.chimeric.de/" title="www.chimeric.de"><img src="./Tema 1 - Centru de colectare a pachetelor [CS Open CourseWare]_files/button-chimeric-de.png" width="80" height="15" alt="www.chimeric.de" border="0"></a>
+
+  <a target="_blank" href="http://jigsaw.w3.org/css-validator/check/referer" title="Valid CSS"><img src="./Tema 1 - Centru de colectare a pachetelor [CS Open CourseWare]_files/button-css.png" width="80" height="15" alt="Valid CSS" border="0"></a>
+
+  <a target="_blank" href="http://wiki.splitbrain.org/wiki:dokuwiki" title="Driven by DokuWiki"><img src="./Tema 1 - Centru de colectare a pachetelor [CS Open CourseWare]_files/button-dw.png" width="80" height="15" alt="Driven by DokuWiki" border="0"></a>
+
+  <a target="_blank" href="http://www.firefox-browser.de/" title="do yourself a favour and use a real browser - get firefox"><img src="./Tema 1 - Centru de colectare a pachetelor [CS Open CourseWare]_files/button-firefox.png" width="80" height="15" alt="do yourself a favour and use a real browser - get firefox!!" border="0"></a>
+  
+  <a target="_blank" href="http://ocw.cs.pub.ro/courses/feed.php" title="Recent changes RSS feed"><img src="./Tema 1 - Centru de colectare a pachetelor [CS Open CourseWare]_files/button-rss.png" width="80" height="15" alt="Recent changes RSS feed" border="0"></a>
+
+  <a target="_blank" href="http://validator.w3.org/check/referer" title="Valid XHTML 1.0"><img src="./Tema 1 - Centru de colectare a pachetelor [CS Open CourseWare]_files/button-xhtml.png" width="80" height="15" alt="Valid XHTML 1.0" border="0"></a>
+</div>
+
+  </div>
+</div>
+
+<div class="no"><img src="./Tema 1 - Centru de colectare a pachetelor [CS Open CourseWare]_files/indexer.php" width="2" height="1" alt=""></div>
+
+
+</body></html>
